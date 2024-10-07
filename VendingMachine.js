@@ -19,9 +19,7 @@ class VendingMachine {
         }
         // adjust id to zero indexed array
         id -= 1;
-
         
-        console.log(this.inventory[id])
         return this.inventory[id];
     }
 
